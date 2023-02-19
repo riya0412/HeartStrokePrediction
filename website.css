@@ -1,0 +1,277 @@
+body {
+
+	margin: 0;
+}
+
+/* Navebar CSS*/
+.img1 {
+	height: 300px;
+	width: 100%;
+	position: relative;
+}
+
+.head1 {
+	font-size: 30px;
+	margin-left: 5px;
+
+}
+
+.navbar {
+	background-color: #3D3C3C;
+	border: 3px solid #3D3C3C;
+	padding: 10px;
+	font-family: cursives;
+	position: sticky;
+	top: 0;
+}
+
+.navbar a {
+	text-decoration: none;
+	color: white;
+}
+
+.nav2 {
+	float: right;
+	font-size: 20px;
+	padding: 5px;
+}
+
+.navbar .nav2 a {
+	margin-left: 20px;
+}
+
+.btn1 {
+	background-color: yellowgreen;
+	border: 5px solid yellowgreen;
+	border-radius: 5px;
+	padding: 3px;
+	color: black;
+	box-shadow: 2px 2px 2px lightgreen;
+}
+
+/* col-system */
+.row {
+	display: flex;
+}
+
+.col-4
+
+/* screen divided into 4 i.e 25% */
+	{
+	width: 25%;
+}
+
+.col-2 {
+	width: 50%;
+}
+
+.col-3 {
+	width: 33.33%;
+}
+
+.mt-10px {
+	margin-top: 10px;
+}
+
+.cards {
+	border: 1px solid blueviolet;
+	margin-left: 10px;
+	text-align: center
+}
+
+.text-center {
+	text-align: center;
+
+}
+
+.image {
+	width: 90%;
+	height: 50%;
+	padding-top: 10px;
+	padding-top: 10px;
+	box-shadow: 3px 3px 3px #161616;
+}
+
+/*Footer*/
+.footer {
+	background-color: black;
+	border: 3px solid black;
+	color: white;
+	font-family: cursive;
+	margin-top: 30px;
+
+}
+
+.ta-c {
+	text-align: center;
+}
+
+.footer a {
+	color: white;
+	text-decoration: none;
+}
+
+.flex {
+	display: flex;
+}
+
+ul {
+	list-style: none;
+}
+
+.footer-col {
+	width: 25%;
+	padding: 15px;
+	text-transform: capitalize;
+}
+
+.footer-col h4 {
+	color: white;
+	position: relative;
+	font-size: 20px;
+}
+
+.footer-col ul li {
+	margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+	text-decoration: none;
+	display: block;
+	font-size: 16px;
+	color: #bbbbbb;
+	word-spacing: 5px;
+}
+
+.footer-col ul li a:hover {
+	color: white;
+	padding-left: 10px;
+}
+
+.footer-col .social-links a {
+	height: 40px;
+	width: 40px;
+	display: inline-block;
+	background-color: rgba(255, 255, 255, 0.2);
+	text-align: center;
+	margin: 0 10px 10px 0;
+	line-height: 40px;
+	/*to bring the icon in center kind off padding*/
+	border-radius: 50%;
+	color: white;
+	transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+	color: #24262b;
+	background-color: white;
+}
+
+.hs {
+	color: #bbbbbb;
+	padding: 10px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.heading {
+	font-family: cursive;
+	background-color: #827F7F;
+	color: black;
+	border: 2px solid #827F7F;
+	padding: 50px;
+	text-align: center;
+	margin: 0;
+	top: 0;
+}
+
+.sub-h {
+	margin-top: 50px;
+	margin-left: 20px;
+	background-color: #bbbbbb;
+	;
+	padding: 20px;
+}
+
+.content {
+	margin: 20px;
+	font-size: 20px;
+}
+
+.ul {
+	margin: 20px;
+	font-size: 20px;
+	list-style: square;
+}
+
+.ol {
+	margin: 20px;
+	font-size: 20px;
+	list-style: 1.;
+}
+
+.no-b {
+	margin-left: 10px;
+	text-align: center
+}
+
+.mt-50px {
+	margin-top: 50px;
+}
+
+.hs-c {
+	margin-left: 50px;
+
+}
+
+.hs-p {
+	text-align: left;
+	font-size: 20px;
+	margin-left: 40px;
+	margin-right: 20px;
+
+}
+
+.form {
+	text-align: left;
+	font-size: 20px;
+	margin-left: 40px;
+	margin-top: 10px;
+}
+
+.info {
+	border: 2px solid black;
+	padding: 20px;
+	background-color: aliceblue;
+	margin-right: 20px;
+}
+
+input,
+select {
+	height: 25px;
+	width: 350px;
+}
+
+.btn2 {
+	background-color: darkblue;
+	border: 5px solid darkblue;
+	border-radius: 5px;
+	padding: 5px;
+	color: white;
+	box-shadow: 5px 5px 5px lightblue;
+}
+
+.login {
+	font-size: 20px;
+	margin-left: 50px;
+}
+
+.login label {
+	font-weight: bold;
+}
+
+.login input,
+select {
+	height: 40px;
+	width: 50%;
+}
